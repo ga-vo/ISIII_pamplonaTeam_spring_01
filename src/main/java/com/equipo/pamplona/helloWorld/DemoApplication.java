@@ -15,7 +15,7 @@ public static void main(String[] args) {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Vaya a /hello y agregue su nombre como /hello?name= -NAME- jaja salu2";
+		return "Vaya a /hello y agregue su nombre como /hello?name= -NAME- jaja salu2 por parte del equipo pamplona";
 	}
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
